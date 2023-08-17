@@ -6,20 +6,37 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "create-pinecone-index": "tsx -r dotenv/config src/scripts/create-pinecone-index.ts",
+    "ingest-data": "tsx -r dotenv/config src/scripts/ingest-data.ts"
   },
   "dependencies": {
+    "@pinecone-database/pinecone": "^0.1.6",
+    "@radix-ui/react-accordion": "^1.1.2",
     "@types/node": "20.5.0",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.16",
+    "langchain": "^0.0.129",
+    "lucide-react": "^0.268.0",
     "next": "13.4.16",
+    "openai": "^3.3.0",
     "postcss": "8.4.28",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-markdown": "^8.0.7",
+    "tailwind-merge": "^1.14.0",
     "tailwindcss": "3.3.3",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.24",
+    "dotenv": "^16.3.1",
+    "googleapis": "^125.0.0",
+    "pdf-parse": "^1.1.1",
+    "tsx": "^3.12.7",
+    "yargs": "^17.7.2"
   }
 }
