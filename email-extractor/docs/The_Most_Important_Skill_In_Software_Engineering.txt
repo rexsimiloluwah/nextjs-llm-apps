@@ -1,0 +1,109 @@
+Hello ,
+
+> This is the most important email I've ever written for your career, so please read till the end (3min read)
+
+I post daily on social media so I can grow my audience. I got quite busy at work and decided to hire a social media manager to help me out. I had a very good budget, way above market rate for such roles. I was willing to pay even more if I found the right person.
+
+I connected with **10 social media managers with over 5 years of experience** according to them. I set meetings with 4 of them, who looked like the best candidates to me.
+
+The goal of this meeting was to introduce my brand to them and talk about their past experiences.
+
+After speaking with all 4, **I hired none**.
+
+They all had one major flaw in common. **Skill driven career focus**. They were proud to explain how long they had been posting on Instagram, Twitter and even Tik Tok.
+
+They knew how to create video content, viral content, even podcasts. They could create slides on Instagram and beautiful grids.
+
+That’s all fancy and fun. And these are definitely skills you need to succeed as a social media manager.
+
+Well then what’s the problem ? And why is this a flaw ?
+
+They thought I was willing to pay them for their skills. But no. I was willing to pay them to **solve a problem I was facing**.
+
+A business will not hire you for the skills you have. A business will hire you to solve a problem they have.
+
+Oh how I wish! Oh how I wish someone had told me to build my career around problem solving and not skill acquisition.
+
+There’s a very thin line between the two, and I will break it down for you.
+
+I will use the social media example to explain further.
+
+This is the kind of candidate I would have hired.
+
+A candidate that told me these 4 things:
+
+> A problem they solved in the past
+
+> A measurable negative impact caused by that problem
+
+> The solution they brought
+
+> A measurable positive impact by that solution
+
+This is the problem solving mindset.
+
+Here’s an example of how a candidate would show this skill:
+
+Start quote \_\_\_\_\_
+
+***I worked with Piggy Vest 2 years ago. They had one major problem. Gen Z and Millennials did not know about them.***
+
+***They knew this when they realized 60% of the people who saved on their app were 85+ year old. This was making them lose over 70% of the market share to their competition.***
+
+***We sat down and did some research. We realised that Millennials and Gen Z spent most of their time on Instagram and Tik Tok. We decided to create a strategy to reach this audience where they spend their time.***
+
+***My team and I created a social media calendar specific to the Gen Z and Millenail audience.***
+
+***We also came up with 1 social media campaign for that month. The goal was simple. Increase awareness of the Piggy Vest brand amongst this audience.***
+
+***Using Buffer, we got automatic metrics showing us the metrics, performance and engagement of every piece of content.***
+
+***Our content was very specific.***
+
+***At the end of the month, we got 300,000+ impressions across all social media, 500 new Gen Z sign ups to Piggy Vest.***
+
+End quote \_\_\_\_\_\_
+
+How does that look ? Who will you hire ? This person said nothing about instagram grids, viral videos, or LinkedIn slides. They said nothing about all the hard core skills you need to get the job done.
+
+Instead, they focused only on the business problem, the impact of the problem, the solution, and the impact of the solution.
+
+***Problem***: Piggy Vest had low Gen Z users
+
+***Impact of Problem***: Competitors had majority market share
+
+***Solution***: Build brand awareness amongst Gen Z using social media engagement
+
+***Impact of Solution***: 500 new Gen Z sign ups after 1 month of solution.
+
+This is six figure material. This is the social media manager that gets paid $100k+ per year brands while working from anywhere in the world.
+
+This translates to all careers in tech. Let me give you another practical example of how this applies to software engineers.
+
+Say you’re hiring for a Frontend Engineering Role. In the job description, they mentioned their love for automated testing.
+
+Here’s how you present your previous experience to them.
+
+Start quote \_\_\_\_\_\_\_\_\_
+
+***In my last job, I worked on a team developing the SAAS dashboard for our customers. Every month, we had 8 new customers that churned because the app was too buggy. Too many bugs.***
+
+***During a strategy call with the head of engineering, we decided to add automated tests. I wrote more tests than anyone else. I enjoyed the process.***
+
+***The tests helped us catch bugs early, and reduce regressions.***
+
+***After a few months, we noticed the average number of bugs reported had reduced from 15 a week to less than 6. Also, zero customers churned because of the app being buggy.***
+
+End quote\_\_\_\_\_\_\_\_\_
+
+Now compare this to a frontend engineer who tells you I know Jest, React and Cypress for testing.
+
+It’s a completely different mindset. It’s a mindset that let’s tech companies hire you despite your location.
+
+Because you are just so good at what you do and think in a problem and solution mindset.
+
+So, what's the most important skill a software engineer should have ?
+
+> PROBLEM SOLVING
+
+[Online version](https://frantz.mailcoach.app/webview/campaign/3abe734f-5724-4144-8dfd-8112ff009ab7) • [Unsubscribe](https://frantz.mailcoach.app/unsubscribe/fbba01de-5bd1-468f-a377-3337dae3438e/87b5d881-a159-4139-acdd-522accd45398) Sent by [Frantz Kati](https://twitter.com/bahdcoder?utm_source=newsletter&utm_medium=email&utm_campaign=the-most-important-skill-in-software-engineering)

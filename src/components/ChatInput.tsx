@@ -11,7 +11,11 @@ interface ChatInputProps
 const ChatInput = React.forwardRef<HTMLTextAreaElement, ChatInputProps>(
   ({ className, loading, ...props }, ref) => {
     return (
-      <div className="relative w-full border-[1px] border-slate-300 shadow-sm backdrop-blur-sm rounded-lg overflow-hidden">
+      <div
+        className={twMerge(
+          "relative w-full border-[1px] border-slate-300 hover:border-blue-400 hover:border-2 shadow-sm backdrop-blur-sm rounded-lg overflow-hidden"
+        )}
+      >
         <textarea
           className="w-full px-8 py-4 resize-none outline-none"
           placeholder="Enter your message"
@@ -26,7 +30,7 @@ const ChatInput = React.forwardRef<HTMLTextAreaElement, ChatInputProps>(
           type="submit"
           disabled={loading}
           className={twMerge(
-            "absolute top-5 right-4",
+            "absolute top-5 right-4 text-blue-600",
             !props.value && "text-neutral-300"
           )}
         >

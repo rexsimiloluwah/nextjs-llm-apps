@@ -8,9 +8,9 @@ interface LoadingDotsProps {
 const LoadingDots: React.FC<LoadingDotsProps> = ({ className }) => {
   return (
     <div className={twMerge("loader flex gap-x-1", className)}>
-      <div className="w-2 h-2 bg-neutral-300 animate-bounce rounded-full"></div>
-      <div className="w-2 h-2 bg-neutral-300 animate-bounce rounded-full"></div>
-      <div className="w-2 h-2 bg-neutral-300 animate-bounce rounded-full"></div>
+      <div className="w-2 h-2 bg-blue-300 animate-bounce rounded-full"></div>
+      <div className="w-2 h-2 bg-orange-300 animate-bounce rounded-full"></div>
+      <div className="w-2 h-2 bg-blue-300 animate-bounce rounded-full"></div>
     </div>
   );
 };

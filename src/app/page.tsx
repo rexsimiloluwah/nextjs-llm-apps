@@ -1,154 +1,57 @@
-"use client";
+import { ArrowUpRight, GithubIcon } from "lucide-react";
 import type { Metadata } from "next";
-import { Message } from "@/types/chat";
-import { useRef, useState } from "react";
-import { Document } from "langchain/document";
-import ChatMessage from "@/components/ChatMessage";
-import ChatInput from "@/components/ChatInput";
-import { ChainResponse } from "@/pages/api/chat";
-import ReactMarkdown from "react-markdown";
-import SourceDocumentsAccordion from "@/components/SourceDocumentsAccordion";
+import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Chat with Docs",
-  description: "Document Chat App using LangChain, OpenAI, and Pinecone",
+  title: "Next.js LLM Apps",
+  description: "LLM-powered applications using LangChain, OpenAI",
 };
 
 export default function Home() {
-  const [query, setQuery] = useState<string>("");
-  const [loading, setLoading] = useState<boolean>(false);
-  const [messageState, setMessageState] = useState<{
-    messages: (Message & { showSourceDocuments?: boolean })[];
-    pending?: string;
-    history: [string, string][];
-    pendingSourceDocs?: Document[];
-  }>({
-    messages: [
-      {
-        message: "Hi, what would you like to learn about this course?",
-        type: "aiMessage",
-      },
-    ],
-    history: [],
-  });
-  const messageListRef = useRef<HTMLDivElement | null>(null);
-
-  const { messages, history } = messageState;
-
-  const handleSubmit = async (e: any) => {
-    e.preventDefault();
-    const question = query.trim();
-
-    setMessageState((prev) => ({
-      ...prev,
-      messages: [
-        ...prev.messages,
-        {
-          type: "userMessage",
-          message: question,
-        },
-      ],
-    }));
-
-    setLoading(true);
-    setQuery("");
-
-    try {
-      const response = await fetch("/api/chat", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          question,
-          history,
-        }),
-      });
-
-      const responseJson = await response.json();
-      const data = responseJson.data as ChainResponse;
-
-      setMessageState((prev) => ({
-        ...prev,
-        messages: [
-          ...prev.messages,
-          {
-            type: "aiMessage",
-            message: data.text,
-            sourceDocs: data.sourceDocuments,
-          },
-        ],
-        history: [...prev.history, [question, data.text]],
-      }));
-
-      // Scroll to bottom
-      messageListRef.current?.scrollIntoView({ behavior: "smooth" });
-    } catch (error) {
-      console.error(error);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const handleEnter = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
-    if (e.key === "Enter" && query) {
-      e.preventDefault();
-      handleSubmit(e);
-    }
-  };
+  const exampleApps = [
+    {
+      title: "Chat with Kati Frantz",
+      href: "/chat-with-kati",
+    },
+  ];
 
   return (
-    <div className="flex flex-col justify-between items-center my-8 w-[75vw] mx-auto gap-y-4">
-      <div className="w-full h-[65vh] rounded-lg flex justify-center items-center border-[1px] shadow-md backdrop-blur-sm border-slate-300">
-        <div className="w-full h-full overflow-y-scroll">
-          {messages.map((message, id) => (
-            <>
-              <div className="relative">
-                <ChatMessage
-                  key={id}
-                  message={message.message}
-                  type={message.type}
-                />
-                {message.type === "aiMessage" && id > 0 && (
-                  <button
-                    className="text-xs absolute bottom-2 right-2"
-                    onClick={() =>
-                      setMessageState((prev) => {
-                        prev.messages[id].showSourceDocuments =
-                          !prev.messages[id].showSourceDocuments;
-                        return {
-                          ...prev,
-                          messages: prev.messages,
-                        };
-                      })
-                    }
-                  >
-                    Show Source Documents
-                  </button>
-                )}
-
-                {message.showSourceDocuments ? (
-                  <SourceDocumentsAccordion
-                    sourceDocuments={message.sourceDocs}
-                  />
-                ) : null}
-              </div>
-            </>
+    <div className="relative h-screen place-items-center flex justify-center">
+      <Link
+        href="https://github.com/rexsimiloluwah/nextjs-llm-apps"
+        target="_blank"
+        className="p-2 rounded-full hover:bg-neutral-100 absolute top-4 right-4"
+      >
+        <GithubIcon size={32} />
+      </Link>
+      <div className="flex flex-col w-[45vw] mx-auto justify-center">
+        <div className="mb-8 flex flex-col gap-y-3">
+          <h1 className="tracking-tight font-bold text-2xl md:text-4xl text-center">
+            Next.js LLM Applications
+          </h1>
+          <p>
+            A suite of LLM-powered applications built using{" "}
+            <span className="text-yellow-500 font-semibold">Next.js</span>,{" "}
+            <span className="text-yellow-500 font-semibold">LangChain</span>,{" "}
+            <span className="text-yellow-500 font-semibold">OpenAI</span> etc.
+          </p>
+        </div>
+        <div className="flex flex-col w-full gap-y-4 items-center">
+          {exampleApps.map((item, id) => (
+            <Link
+              href={item.href}
+              key={id}
+              className="bg-blue-500 hover:ring-2 transition group rounded-lg opacity-95 hover:opacity-100 p-4 w-full text-white flex justify-between items-center"
+            >
+              <p>{item.title}</p>
+              <ArrowUpRight size={32} className="group-hover:rotate-45" />
+            </Link>
           ))}
+          <div>Others coming soon...</div>
         </div>
       </div>
 
-      <div className="w-full">
-        <form onSubmit={handleSubmit}>
-          <ChatInput
-            autoFocus={false}
-            onKeyDown={handleEnter}
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            loading={loading}
-          />
-        </form>
-      </div>
+      <footer className="fixed bottom-4">Built with ❤️ by THEBLKDV</footer>
     </div>
   );
 }

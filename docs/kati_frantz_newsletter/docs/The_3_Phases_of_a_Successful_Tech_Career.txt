@@ -1,0 +1,150 @@
+Hello ,
+
+A few weeks ago I was having a chat with someone on Twitter. He told me about his job hunt, and his expectations.
+
+He said he started learning to code last year March, and has been job hunting for the past 3 months.
+
+I asked about his expectations. He said he doesn't apply to any jobs that pay less than $70k USD.
+
+**$70k USD a year**. With Zero Experience, zero evidence and if I'm being honest, mediocre programmings skills.
+
+He's not the only one. Many people message me asking if they can land a remote job that pays in USD in 6 months if they start studying today.
+
+Tech is not easy. It's hard. Very hard. There's a lot I didn't know when I started out. There's a lot I wish I knew.
+
+There are three important questions you need to answer for your career growth:
+
+1. ***Where am I in my career ?***
+2. ***What is the next phase ?***
+3. ***What do I need to do to get to the next phase ?***
+
+Take a few moments to think about this carefully.
+
+Can you confidently answer these 3 questions about your career at this moment ?
+
+In today's newsletter, I will show you the 3 inevitable phases of your career in tech.
+
+By the end of this letter, I will ask you to answer these 3 questions again, and you will be able to.
+
+![3 phases of a career in tech](https://mailcoach.mailcoach.de-fra1.upcloudobjects.com/8aba450d-80f3-4a9e-ad63-c591a99e4788/4282/conversions/3-phases-of-career-growth-image.png)
+
+1. Phase 1: Master the fundaments
+---------------------------------
+
+It's 2023. It's not 2010.
+
+In 2010, here's how people got into tech with zero experience: Sign up for a 3 months bootcamp. Learn HTML, CSS, Javascript. Then learn Express, Node.
+
+Build a portfolio project, demo it, and in the 4th month, land a job at a promising startup.
+
+Yes. 3 months.
+
+That's the amount of time I recommend my mentees spend on just HTML and CSS if they are learning 8 hours a day.
+
+The reason is because 15 years ago, there was a shortage in tech talent. So many tech companies, but so little talent available.
+
+That was the best time to get into tech. Luckily, that's the period I got into tech.
+
+Now what was the problem with this approach ? Fundamentals were missing.
+
+You CAN'T master the fundamentals in 3 months.
+
+Now what do I mean by fundamentals ?
+
+It means having a great understanding of 3 core principles: how tools work, why tools work, and how to use those tools.
+
+Everyone focused on the third part: how to use tools. For example: you know how to use HTML, but know nothing about why it exists, how browsers render it, it's specifications, and the problems it solves.
+
+You have no idea why CSS styles HTML. You just do it.
+
+I'll be very honest with you. This no longer cuts it. You are competing against 1,000+ candidates for every job posting.
+
+If you do not have strong fundamentals, you will be smoked out during the interview process.
+
+And every interview process will be a reminder to go back to the fundamentals.
+
+Think about the most interesting thing you talk about with your friends. For me, it's anime. I can argue about anime for 24 hours straight and not run out of points.
+
+Why ? Because I have shamelessly spent at least 25% of my entire life watching anime, reading about it, and consuming it endlessly.
+
+For you, it might be football. Or makeup. Or celebrity news.
+
+You really know it because you've spent the time and paid the price.
+
+That's exactly how it should be for your career. No more mediocre.
+
+No more using tools with no understanding. Build a very strong foundation for your career.
+
+How do you know you're ready to go to Phase 2 ? That's why you need a mentor. Don't have one ? I'm here to help you.
+
+It's not the focus of this letter, so I'll talk about it more on Twitter.
+
+2. Phase 2: Gain real world experience
+--------------------------------------
+
+This is the phase everyone skips. But it is the most valuable phase you can be in.
+
+You need patience. And you need to dwell in reality. Companies pay for value. And this is the phase in which you build yourself up to be able to provide value to a company.
+
+Most people try to skip to phase 3, without building the skills they need to provide VALUE.
+
+How do you train to be a value providing machine ? Two solid ways:
+
+### 1. Open source
+
+Working with a team of people to build in public. You get to experience the real meaning of being a software engineer, product designer or whatever role you have in open source.
+
+You work with a remote team, collaborate as you would in real life, and, contribute real value to a real company.
+
+I have a complete guide on how to get into open source. It's 100% free. Here's a snippet. If you're interested, reply this email. If I get 100 replies I'll release it next week.
+
+![sneak peek at open source course](https://mailcoach.mailcoach.de-fra1.upcloudobjects.com/8aba450d-80f3-4a9e-ad63-c591a99e4788/4283/conversions/screenshot-2023-05-16-at-083902-image.png)
+
+### 2. Freelancing
+
+Work with a business founder to build a solution to the problem they want to solve. This is startup and indie hacker life. And it's a great way to build a solid backbone in tech.
+
+To use this strategy, you'll network with founders trying to start companies. Then, work with them in building their ideas. Stick to US or Europe based founders that have a proven record of building projects to completion.
+
+You only succeed in this phase if you did so well in Phase 1.
+
+Let me show you a painful example.
+
+I've given advice to thousands of developers on how to get into open source.
+
+99% of them try, and then fail.
+
+And I found out why most do.
+
+Because they didn't have the skills to actually make a valuable contribution. It's painful, but it's true.
+
+They only learned HTML, CSS, and Javascript. Without mastering the fundamentals of software engineering.
+
+So, when faced with a real world project, they get confused and discouraged.
+
+Master Phase 1, then do Phase 2 for as long as you can.
+
+3. Land a job and get paid
+--------------------------
+
+The phase we've all been waiting for. This is not as easy as it looks. You'll need incredible interviewing and job search skills.
+
+You'll also need to understand how to translate all the experience and evidence you gained in Phase 2 into value a company will pay you for.
+
+We've run out of words for this newsletter.
+
+So I'll stop here.
+
+Now here are the three questions you need to ask yourself:
+
+1. ***Where am I in my career ?***
+2. ***What is the next phase ?***
+3. ***What do I need to do to get to the next phase ?***
+
+Reply to me if you need help answering these questions for yourself.
+
+All the best to you.
+
+Until next week, stay growing.
+
+             [Online version](https://frantz.mailcoach.app/webview/campaign/d657f6c2-902b-45de-acc7-e67a9d21cbb2) • [Unsubscribe](https://frantz.mailcoach.app/unsubscribe/fbba01de-5bd1-468f-a377-3337dae3438e/2a5dd417-fe76-4a70-b4f7-99eec2f982a4)     Sent by [Frantz Kati](https://twitter.com/bahdcoder?utm_source=newsletter&utm_medium=email&utm_campaign=the-3-phases-of-a-successful-tech-career)

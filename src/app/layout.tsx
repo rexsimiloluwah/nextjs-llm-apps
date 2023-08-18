@@ -1,8 +1,7 @@
-import Navbar from "@/components/Navbar";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Figtree } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Figtree({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,
@@ -12,10 +11,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="mx-auto">
-          <Navbar />
-          <main className="w-full">{children}</main>
-        </div>
+        <div className="mx-auto">{children}</div>
       </body>
     </html>
   );

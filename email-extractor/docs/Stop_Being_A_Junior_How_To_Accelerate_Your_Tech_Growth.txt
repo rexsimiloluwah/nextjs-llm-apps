@@ -1,0 +1,106 @@
+Hey ,
+
+In general, companies don't like junior talent. Junior talent requires a lot of hand holding and support for at least a year before they start to provide actual value to the company.
+
+So, here's the bad news. If you're starting a tech career, you are not wanted.
+
+It's sad, but it's true.
+
+![andela-fires-400-junior-developers](https://mailcoach.mailcoach.de-fra1.upcloudobjects.com/8aba450d-80f3-4a9e-ad63-c591a99e4788/5728/conversions/screenshot-2023-07-05-at-053745-image.png)
+
+Andela is the company that brought Mark Zuckerberg to Africa. And 3 years after that, they fired all junior developers, because nobody wanted them.
+
+I'm angry.
+
+Because it's not fair.
+
+But we have to deal with the reality, so here are **3 important things** you can do to stop being a junior developer and **become a software engineer that companies want**:
+
+  
+1/3 Understand the fundamentals of the trade
+--------------------------------------------
+
+  
+There's something I see online all the time that makes me worry. Everyone is asking ***What skills do I need to learn to become a frontend engineer*** ?
+
+Junior developers focus too much on skills. Senior develoeprs focus instead on problems.
+
+Two engineers hear about GraphQL and want to learn it. One is a junior. The other is senior.
+
+Look at the two approaches:
+
+![learn-graphql](https://mailcoach.mailcoach.de-fra1.upcloudobjects.com/8aba450d-80f3-4a9e-ad63-c591a99e4788/5740/conversions/untitled-2023-06-29-1103-image.png)
+
+Stop asking on Twitter if you should learn Tailwind or Bootstrap. Do your own research and form your own opinion. Follow these steps instead:
+
+✅ What is Tailwind, and what is Bootstrap ?
+
+✅ What problems are they trying to solve ?
+
+✅ How do both technologies solve these problems ?
+
+✅ What mental model do they use to solve the problem ?
+
+✅ Those who aren't using Tailwind or Bootstrap, how are they solving the problem ?
+
+✅ Which one is most used at companies and why ?
+
+✅ Understand how both technologies work
+
+✅ Make a choice
+
+✅ Form an opinion
+
+✅ Talk to other engineers who have an opinion
+
+  
+2/3 Don't Code, Solve Problems
+------------------------------
+
+  
+![build-me-an-app-junior](https://mailcoach.mailcoach.de-fra1.upcloudobjects.com/8aba450d-80f3-4a9e-ad63-c591a99e4788/5735/conversions/1-image.png)
+
+This literally happened yesterday. I gave my mentee an assignment: ***Build a Next.Js application that allows users sign in via phone number and OTP***.
+
+What do you think is the first thing she did ? Take a wild guess.
+
+She picked up her laptop, immediately generated a new React app and started writing code. This was all in 3 minutes. I wasn't even done giving the requirements.
+
+![build-me-an-app-senior](https://mailcoach.mailcoach.de-fra1.upcloudobjects.com/8aba450d-80f3-4a9e-ad63-c591a99e4788/5731/conversions/1-image.png)
+
+Dear junior developer:
+
+Stop thinking code.
+
+Think solution.
+
+Think strategy.
+
+Think architecture.
+
+Think documentation of solution before code.
+
+Your first instinct would always be to write code. To stop being junior, force yourself to think strategy. Not Code.
+
+  
+3/3 Take Ownership
+------------------
+
+  
+By the end of Chapter 4 of my book, you take a pledge. A pledge to be a world class software engineer. Junior developers think the role of a software engineer is to write code.
+
+No.
+
+Your role is to take ownership of the entire software development life cycle.
+
+![plege-world-class-engineer](https://mailcoach.mailcoach.de-fra1.upcloudobjects.com/8aba450d-80f3-4a9e-ad63-c591a99e4788/5734/conversions/screenshot-2023-07-05-at-062433-image.png)
+
+Taking ownership does not mean doing everything yourself and not asking for help. It means taking on the responsibility to make sure the work you do goes from start to completion.
+
+This includes communicating with stakeholders, planning, architecting, coding, testing, and shipping the software solutions you build.
+
+Ready to push yourself out of junior and move into mid level and senior ?
+
+I'm here to help.
+
+[Online version](https://frantz.mailcoach.app/webview/campaign/d6ef742c-14d7-4859-ac56-64b3bb20c7a0) • [Unsubscribe](https://frantz.mailcoach.app/unsubscribe/fbba01de-5bd1-468f-a377-3337dae3438e/f77c9f7a-d4fd-48fa-a3e6-691e99ccd314) Sent by [Frantz Kati](https://twitter.com/bahdcoder?utm_source=newsletter&utm_medium=email&utm_campaign=stop-being-a-junior-how-to-accelerate-your-tech-growth)
