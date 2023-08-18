@@ -1,14 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
-import type { Metadata } from "next";
 import { Message } from "@/types/chat";
 import { useRef, useState } from "react";
 import { Document } from "langchain/document";
 import ChatMessage from "@/components/ChatMessage";
 import ChatInput from "@/components/ChatInput";
-import { ChainResponse } from "@/app/api/chat";
 import SourceDocumentsAccordion from "@/components/SourceDocumentsAccordion";
-import Image from "next/image";
+import { ChainResponse } from "@/lib/chat";
 
 export default function ChatWithKati() {
   const [query, setQuery] = useState<string>("");
