@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "create-pinecone-index": "tsx -r dotenv/config src/scripts/create-pinecone-index.ts",
-    "ingest-data": "tsx -r dotenv/config src/scripts/ingest-data.ts",
-    "get-google-access-token": "tsx -r dotenv/config src/scripts/get-google-access-token.ts"
+    "ingest-data": "tsx -r dotenv/config src/scripts/ingest-data.ts"
   },
   "dependencies": {
     "@pinecone-database/pinecone": "^0.1.6",
