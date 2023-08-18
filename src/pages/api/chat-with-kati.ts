@@ -1,4 +1,5 @@
-import { chatHandler } from "../chat";
+import withMethods from "@/utils/api-middlewares/with-methods";
+import { chatHandler } from "../../lib/chat";
 
 export type ChainResponse = {
   text: string;
@@ -19,6 +20,6 @@ Standalone question: <Rephrased question here>
 \`\`\`
 Your answer:`;
 
-export async function POST(req: Request) {
-  return chatHandler(req, QUESTION_GENERATOR_CHAIN_PROMPT);
-}
+const handler = chatHandler(QUESTION_GENERATOR_CHAIN_PROMPT);
+
+export default withMethods(["POST"], handler);
