@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import type { Metadata } from "next";
 import { Message } from "@/types/chat";
@@ -5,7 +6,7 @@ import { useRef, useState } from "react";
 import { Document } from "langchain/document";
 import ChatMessage from "@/components/ChatMessage";
 import ChatInput from "@/components/ChatInput";
-import { ChainResponse } from "@/pages/api/chat";
+import { ChainResponse } from "@/app/api/chat";
 import SourceDocumentsAccordion from "@/components/SourceDocumentsAccordion";
 import Image from "next/image";
 
@@ -119,9 +120,8 @@ export default function ChatWithKati() {
                     loading={loading && id === messageState.messages.length - 1}
                     aiIcon={
                       <div className="relative overflow-hidden w-12 h-12 rounded-full border-blue-600 border-2">
-                        <Image
+                        <img
                           src="/images/katifrantz.jpg"
-                          fill
                           className="object-cover"
                           alt="Kati"
                         />

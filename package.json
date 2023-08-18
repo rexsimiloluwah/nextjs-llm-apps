@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "create-pinecone-index": "tsx -r dotenv/config src/scripts/create-pinecone-index.ts",
-    "ingest-data": "tsx -r dotenv/config src/scripts/ingest-data.ts"
+    "create-pinecone-index": "tsx -r dotenv/config scripts/create-pinecone-index.ts",
+    "ingest-data": "tsx -r dotenv/config scripts/ingest-data.ts"
   },
   "dependencies": {
     "@pinecone-database/pinecone": "^0.1.6",
@@ -18,6 +18,7 @@
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
+    "encoding": "^0.1.13",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.16",
     "langchain": "^0.0.129",

@@ -24,9 +24,9 @@ export default function Home() {
       >
         <GithubIcon size={32} />
       </Link>
-      <div className="flex flex-col w-[45vw] mx-auto justify-center">
-        <div className="mb-8 flex flex-col gap-y-3">
-          <h1 className="tracking-tight font-bold text-2xl md:text-4xl text-center">
+      <div className="flex flex-col w-[90vw] md:w-[45vw] mx-auto justify-center">
+        <div className="mb-8 flex flex-col gap-y-3 text-center">
+          <h1 className="tracking-tight font-bold text-2xl md:text-4xl">
             Next.js LLM Applications
           </h1>
           <p>
