@@ -1,10 +1,6 @@
 import withMethods from "@/utils/api-middlewares/with-methods";
 import { chatHandler } from "../../lib/chat";
 
-export const config = {
-  runtime: "edge",
-};
-
 export type ChainResponse = {
   text: string;
   sourceDocuments: Document[];
