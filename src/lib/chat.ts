@@ -29,12 +29,7 @@ export const chatHandler = (questionGeneratorPrompt?: string) => {
 
       const { question, history } = data;
 
-      if (!question) {
-        return res.status(400).json({
-          status: false,
-          message: "`question` is required in request body.",
-        });
-      }
+      console.log(question, history);
 
       const sanitizedQuestion = question.trim().replaceAll("\n", "");
       const pineconeClient = await initPineconeClient();
