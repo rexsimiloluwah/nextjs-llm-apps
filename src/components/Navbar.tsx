@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import { GithubIcon } from "lucide-react";
+import ThemeToggle from "./ThemeToggle";
+import { buttonVariants } from "./ui/button";
 
 interface NavbarProps {
   title: string;
@@ -23,10 +25,11 @@ const Navbar: React.FC<NavbarProps> = ({ title }) => {
           <Link
             href="https://github.com/rexsimiloluwah/nextjs-llm-apps"
             target="_blank"
-            className="hover:bg-neutral-100 rounded-full p-3"
+            className={buttonVariants({ variant: "ghost" })}
           >
-            <GithubIcon size={24} />
+            <GithubIcon size={24} className="group-hover:text-secondary" />
           </Link>
+          <ThemeToggle />
         </div>
       </nav>
     </header>

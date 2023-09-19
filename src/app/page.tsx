@@ -13,10 +13,14 @@ export default function Home() {
       title: "Chat with Kati Frantz",
       href: "/chat-with-kati",
     },
+    {
+      title: "AI Image Generator",
+      href: "/image-generator",
+    },
   ];
 
   return (
-    <div className="relative h-screen place-items-center flex justify-center">
+    <div className="relative flex justify-center">
       <Link
         href="https://github.com/rexsimiloluwah/nextjs-llm-apps"
         target="_blank"
@@ -24,7 +28,7 @@ export default function Home() {
       >
         <GithubIcon size={32} />
       </Link>
-      <div className="flex flex-col w-[90vw] md:w-[45vw] mx-auto justify-center">
+      <div className="flex flex-col w-[90vw] md:w-[45vw] mx-auto my-20 justify-center">
         <div className="mb-8 flex flex-col gap-y-3 text-center">
           <h1 className="tracking-tight font-bold text-2xl md:text-4xl">
             Next.js LLM Applications
@@ -33,7 +37,9 @@ export default function Home() {
             A suite of LLM-powered applications built using{" "}
             <span className="text-yellow-500 font-semibold">Next.js</span>,{" "}
             <span className="text-yellow-500 font-semibold">LangChain</span>,{" "}
-            <span className="text-yellow-500 font-semibold">OpenAI</span> etc.
+            <span className="text-yellow-500 font-semibold">OpenAI</span>,{" "}
+            <span className="text-yellow-500 font-semibold">HuggingFace</span>{" "}
+            etc.
           </p>
         </div>
         <div className="flex flex-col w-full gap-y-4 items-center">
@@ -47,7 +53,6 @@ export default function Home() {
               <ArrowUpRight size={32} className="group-hover:rotate-45" />
             </Link>
           ))}
-          <div>Others coming soon...</div>
         </div>
       </div>
 
